@@ -1,6 +1,6 @@
 # Compare-FortiOSHash PowerShell Script
 
-`Compare-FortiOSHash` is a PowerShell script that compares the hash of a downloaded file with a hash provided by Fortinet. It supports both MD5 and SHA512 hashes, and can check a TXT or XML file for the hash or take input from the command line. It also checks the name of the downloaded file to make sure it matches the provided name. The hashes are displayed side by side in all caps for easy comparison.
+`Compare-FortiOSHash` is a PowerShell script that compares the hash of a downloaded FortiOS .out file with a hash provided by Fortinet. It supports both MD5 and SHA512 hashes, and can check a TXT or XML file for the hash or take input from the command line. It also checks the name of the downloaded file to make sure it matches the provided name. The hashes are displayed side by side in all caps for easy comparison.
 
 ## Usage
 
